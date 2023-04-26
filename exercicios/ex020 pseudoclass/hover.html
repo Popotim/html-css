@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de hover</title>
+    <style>
+        div:hover{
+            color: red;
+        }
+
+        div > p {
+            display: none;
+        }
+        
+        div:hover > p {
+            display: block;
+            color: aqua;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Hover</h1>
+    <p>passe o mouse </p>
+    <div>
+        aqui
+        <p>here is thinks
+        </p>
+    </div>
+    <button><a href="pseudoclass.html">voltar</a></button>
+</body>
+</html>

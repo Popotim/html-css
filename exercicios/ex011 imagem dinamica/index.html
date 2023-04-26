@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagem dinammica</title>
+</head>
+<body>
+    <h1>Imagem</h1>
+    <p>texte em dispositivos diferentes</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagem/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagem/foto-m.png" type="image/png">
+        <img src="imagem/foto-g.png" alt="Imagem flexível">
+    </picture>
+    <br>
+    <h1>Reproduzir audio</h1>
+    <p>reproduza</p>
+    <audio preload="auto">
+        <source src="midia/happy-mistake.mp3" type="audio/mpeg">
+        <source src="midia/happy-mistake.ogg" type="audio/ogg">
+        <source src="midia/happy-mistake.wav" type="audio/wav">
+        <p><a href="midia/guanacast-33.mp3">baixe o audio</a></p>
+    </audio>
+</html>

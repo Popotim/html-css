@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tag</title>
+    <style>
+        body{
+            background-color: bisque;
+        }
+        nav{
+            text-align: right;
+            margin-right: 10px;
+            background-color: rgba(128, 128, 128, 0.685);
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.514);
+        }
+        section > h2{
+            color: aliceblue;
+        }
+        .menu{
+            color: black;
+            text-decoration: none;
+        }
+        .menu:hover{
+            text-align: end;
+            color: gray;
+            background-color: rgba(250, 235, 215, 0.432);
+            text-decoration: none;
+        }
+        header{
+            background-color: rgba(128, 128, 128, 0.623);
+            padding: 10px;
+            margin: auto;
+            border-radius: 5px;
+        }
+        main{
+            background-color: rgba(182, 181, 181, 0.623);
+            padding: 10px;
+            margin: auto;
+            border-radius: 5px;
+        }
+        footer{
+            background-color: rgba(49, 49, 49, 0.815);
+            text-align: center;
+            padding: 4px;
+            margin: auto;
+        }
+        footer > p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#" class="menu">Link</a>
+            <a href="#" class="menu">Link</a>
+            <a href="#" class="menu">Link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <h2>jogos</h2>
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia aleatoria do dia</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+                <aside>
+                    <p>Artigo escrito por menino Hg</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por menino Hg</p>
+    </footer>
+</body>
+</html>
